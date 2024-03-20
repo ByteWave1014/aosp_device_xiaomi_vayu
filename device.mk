@@ -120,7 +120,8 @@ PRODUCT_PACKAGES += \
     liblhdcBT_dec
 
 # Camera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/vayu-miuicamera/products/miuicamera.mk)
+
 
 PRODUCT_PACKAGES += \
     libpng.vendor \
