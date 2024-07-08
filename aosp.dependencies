@@ -1,23 +1,18 @@
 [
   {
-   "remote": "pixel-devices",
+   "remote": "GXC2356",
    "repository": "kernel_xiaomi_vayu",
    "target_path": "kernel/xiaomi/vayu",
-   "branch": "thirteen"
+   "branch": "main"
   },
-  { "remote": "pixel-devices-blobs",
+  { "remote": "Justin652333",
     "repository": "vendor_xiaomi_vayu",
     "target_path": "vendor/xiaomi/vayu",
-    "branch": "thirteen"
+    "branch": "fourteen"
   },
-  { "remote": "pixel",
-    "repository": "hardware_xiaomi",
+  { "remote": "lineageOs",
+    "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "branch": "thirteen"
-  },
-  { "remote":"gitlab",
-    "repository": "AlissonGrizotti/vendor_xiaomi_miuicamera",
-    "target_path": "vendor/xiaomi/miuicamera",
-    "revision":"thirteen"
+    "branch": "lineage-21"
   }
 ]
