@@ -13,3 +13,6 @@ git clone https://bitbucket.org/vendor-mgc/vendor_mgc.git vendor/mgc
 # Dolby
 rm -rf vendor/dolby
 git clone https://gitlab.com/dogpoopy/vendor_dolby.git vendor/dolby
+
+# Hardware
+git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi
